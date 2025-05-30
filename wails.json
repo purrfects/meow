@@ -1,0 +1,15 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "meow",
+  "outputfilename": "meow",
+  "wailsjsdir": "./frontend",
+  "author": {
+    "name": "flvffywvffy",
+    "email": "me@flvffy.top"
+  },
+
+  "frontend:install": "pnpm install",
+  "frontend:build": "pnpm run build",
+  "frontend:dev:watcher": "pnpm run dev",
+  "frontend:dev:serverUrl": "auto"
+}
